@@ -1,0 +1,9 @@
+# Name: Abhinav Kumar | Roll No: BCS2025479 | Assignment: 1 - Task 3
+# From this task folder, enter the html-lab repository created in Experiment 1 / Task 1.
+cd ..\Task1\html-lab
+# Replace index.html with the version containing the next-meeting heading.
+Copy-Item ..\..\Task3\task3.html index.html -Force
+# Stage the update, save it, then review the short commit history.
+git add index.html
+git commit -m "Add next meeting heading"
+git log --oneline

@@ -1,0 +1,13 @@
+# Name: Abhinav Kumar | Roll No: BCS2025479 | Assignment: 1 - Task 1
+# Create the lab repository and enter it.
+mkdir html-lab
+cd html-lab
+# Initialize Git, choose a consistent branch name, and set this repository's identity.
+git init
+git branch -M main
+git config --local user.name "Abhinav Kumar"
+# This email is a sample address; replace it with the address for your Git commits if needed.
+git config --local user.email "abhinav.kumar@example.com"
+# Verify the saved identity.
+git config user.name
+git config user.email

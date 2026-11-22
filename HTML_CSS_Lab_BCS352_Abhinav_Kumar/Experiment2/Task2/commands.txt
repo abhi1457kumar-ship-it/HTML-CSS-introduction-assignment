@@ -1,0 +1,6 @@
+# Name: Abhinav Kumar | Roll No: BCS2025479 | Assignment: 2 - Task 2
+# From this task folder, enter the Experiment 1 html-lab repository.
+cd ..\..\Experiment1\Task1\html-lab
+# Check the current branch and push the committed work to the origin remote.
+git status
+git push origin main

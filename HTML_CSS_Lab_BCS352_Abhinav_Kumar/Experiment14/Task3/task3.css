@@ -1,0 +1,15 @@
+/* Name: Abhinav Kumar | Roll No: BCS2025479 | Assignment: 14 - Task 3 */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    margin: 20px;
+    color: #243447;
+}
+
+.layout { display: grid; grid-template-columns: 200px minmax(0, 1fr); grid-template-areas: "header header" "sidebar main" "footer footer"; gap: 10px; }
+.layout > div { padding: 20px; color: white; }
+.header { grid-area: header; background: #1d3557; }
+.sidebar { grid-area: sidebar; background: #457b9d; min-height: 160px; }
+.main { grid-area: main; background: #2a9d8f; }
+.footer { grid-area: footer; background: #e63946; }
+@media (max-width: 560px) { .layout { grid-template-columns: 1fr; grid-template-areas: "header" "sidebar" "main" "footer"; } }

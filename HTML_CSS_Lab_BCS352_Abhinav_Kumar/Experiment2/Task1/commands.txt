@@ -1,0 +1,7 @@
+# Name: Abhinav Kumar | Roll No: BCS2025479 | Assignment: 2 - Task 1
+# From this task folder, enter the Experiment 1 html-lab repository.
+cd ..\..\Experiment1\Task1\html-lab
+# Create a bare remote beside html-lab, register it as origin, and verify it.
+git init --bare ..\html-remote
+git remote add origin ..\html-remote
+git remote -v

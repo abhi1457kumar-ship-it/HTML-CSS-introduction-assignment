@@ -1,0 +1,8 @@
+# Name: Abhinav Kumar | Roll No: BCS2025479 | Assignment: 2 - Task 3
+# From this task folder, enter the Experiment 1 repository's parent directory.
+cd ..\..\Experiment1\Task1\html-lab
+cd ..
+# Clone the bare remote into html-copy and inspect the copied commit history.
+git clone html-remote html-copy
+cd html-copy
+git log --oneline

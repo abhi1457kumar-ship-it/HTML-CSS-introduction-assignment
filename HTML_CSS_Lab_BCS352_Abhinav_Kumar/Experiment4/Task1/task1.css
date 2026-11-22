@@ -1,0 +1,11 @@
+/* Name: Abhinav Kumar | Roll No: BCS2025479 | Assignment: 4 - Task 1 */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    margin: 20px;
+    color: #243447;
+}
+
+.header { background: #1d3557; color: white; padding: 15px; }
+.main { background: #f1faee; padding: 40px 15px; }
+.footer { background: #457b9d; color: white; padding: 15px; }

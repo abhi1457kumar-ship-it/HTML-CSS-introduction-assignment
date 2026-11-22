@@ -1,0 +1,8 @@
+# Name: Abhinav Kumar | Roll No: BCS2025479 | Assignment: 1 - Task 2
+# From this task folder, enter the html-lab repository created in Experiment 1 / Task 1.
+cd ..\Task1\html-lab
+# Copy the matching page as index.html, then check, stage and commit it.
+Copy-Item ..\..\Task2\task2.html index.html
+git status
+git add index.html
+git commit -m "Add home page"
